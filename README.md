@@ -12,14 +12,22 @@ The output of the SR_GAN will be like this, it generates an image 4 value higher
 ![alt text](https://miro.medium.com/max/2068/1*7doTQzPZSn3TYFR8xY2FuA.png)
 
 ## Dependencies
-#### ISR - python module 
-#### numpy - python module 
-#### PIL - python module 
-#### Streamlit - Frontend 
+* ISR - python module 
+* numpy - python module 
+* PIL - python module 
+* Streamlit - Frontend 
 
 ## File structure
-#### srgan_training - Training RRDN and RDN with a little change in hyper-parameters
-#### app.py - Frontend using streamlit 
-#### inference.py - predicion file 
-#### demo.gif - sample working of the web app
+* srgan_training - Training RRDN and RDN with a little change in hyper-parameters
+* app.py - Frontend using streamlit 
+* inference.py - predicion file 
+* demo.gif - sample working of the web app
 
+## Run
+Install the requirements, then run the app.py file. 
+
+## Reference
+* https://github.com/tensorlayer/srgan
+* https://github.com/deepak112/Keras-SRGAN
+* https://github.com/leftthomas/SRGAN
+* https://github.com/idealo/image-super-resolution#pre-trained-networks
